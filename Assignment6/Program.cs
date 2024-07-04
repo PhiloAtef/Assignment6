@@ -2,6 +2,12 @@
 
 namespace Assignment6
 {
+    struct Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+
     internal class Program
     {
         #region Q1
@@ -18,5 +24,24 @@ namespace Assignment6
 
         //} 
         #endregion
+
+        #region Q2
+        //public static void Main(string[] args)
+        //{
+        //    Person[] persons = new Person[3];
+
+        //    persons[0] = new Person { Name = "philo", Age = 24 };
+        //    persons[1] = new Person { Name = "mahmoud", Age = 25 };
+        //    persons[2] = new Person { Name = "ahmed", Age = 26 };
+
+        //    foreach (Person person in persons)
+        //    {
+        //        Console.WriteLine($"Name: {person.Name}, Age: {person.Age}");
+        //    }
+
+        //} 
+        #endregion
+
+
     }
 }
