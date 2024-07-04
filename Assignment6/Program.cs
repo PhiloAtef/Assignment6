@@ -42,6 +42,48 @@ namespace Assignment6
         //} 
         #endregion
 
+        #region Q3
+        //enum Season
+        //{
+        //    Spring,
+        //    Summer,
+        //    Autumn,
+        //    Winter
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("Enter season (Spring, Summer, Autumn, Winter): ");
+        //    string? originalString = Console.ReadLine();
+        //    if (Enum.TryParse(originalString, true, out Season season))
+        //    {
+        //        string months = GetSeasonMonths(season);
+        //        Console.WriteLine($"The months for {season} are {months}");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Wrong season entered");
+        //    }
+        //}
+
+        //static string GetSeasonMonths(Season season)
+        //{
+        //    switch (season)
+        //    {
+        //        case Season.Spring:
+        //            return "March to May";
+        //        case Season.Summer:
+        //            return "June to August";
+        //        case Season.Autumn:
+        //            return "September to November";
+        //        case Season.Winter:
+        //            return "December to February";
+        //        default:
+        //            return "Wrong Input";
+        //    }
+        //} 
+        #endregion
+
 
     }
 }
