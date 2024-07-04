@@ -107,6 +107,34 @@ namespace Assignment6
         //} 
         #endregion
 
+        #region Q5
+        //enum Colors
+        //{
+        //    Red,
+        //    Green,
+        //    Blue
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("Enter a color name: ");
+        //    string? input = Console.ReadLine();
+
+        //    if (Enum.TryParse(input, true, out Colors color))
+        //    {
+        //        if (color == Colors.Red || color == Colors.Blue || color == Colors.Green)
+        //        {
+        //            Console.WriteLine($"{color} is a primary color");
+        //        }
+
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"{input} is NOT a primary color");
+        //    }
+        //} 
+        #endregion
+
 
     }
 }
