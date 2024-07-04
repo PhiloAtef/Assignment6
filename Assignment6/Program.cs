@@ -84,6 +84,29 @@ namespace Assignment6
         //} 
         #endregion
 
+        #region Q4
+        //[Flags]
+        //enum Permissions
+        //{
+        //    Read = 1,
+        //    Write = 2,
+        //    Delete = 4,
+        //    Execute = 8
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    Permissions permissions = Permissions.Read | Permissions.Write;
+
+        //    permissions |= Permissions.Delete;
+        //    permissions &= ~Permissions.Write;
+
+        //    bool hasExecute = (permissions & Permissions.Execute) == Permissions.Execute;
+        //    Console.WriteLine("Has Execute Permission: " + hasExecute);
+
+        //} 
+        #endregion
+
 
     }
 }
